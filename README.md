@@ -1,17 +1,16 @@
-<<<<<<< HEAD
-📊 Personal Finance Tracker with Data Visualization
+📊 Personal Finance Tracker
 
-👩‍💻 Author: Ritwika Saha
+👨‍💻 Author: Kushwanth Rasala
 
 📌 Project Overview
 
-The Personal Finance Tracker is a Python desktop application that helps users manage their daily income and expenses, categorize them, and visualize monthly summaries through interactive charts. It provides authentication, filtering, and data export features, making it a simple yet powerful financial management tool.
+The Personal Finance Tracker is a Python desktop application that allows users to manage their daily income and expenses with ease. It provides authentication, categorization, filtering, and data visualization features, along with options to export reports. This makes it a simple yet powerful tool for personal financial management.
 
 🚀 Features
 
 🔑 User Authentication (Login & Register)
 
-💵 Add Transactions (Income/Expense with Category & Date)
+💵 Add Transactions (Income/Expense with category & date)
 
 📅 Filter Transactions by category and date range
 
@@ -19,7 +18,7 @@ The Personal Finance Tracker is a Python desktop application that helps users ma
 
 📑 Export Reports to CSV/Excel
 
-🗄 SQLite Database for local storage
+🗄 SQLite Database for secure local storage
 
 📦 Packaged as Desktop App (via PyInstaller)
 
@@ -35,20 +34,20 @@ IDE: VS Code
 
 📂 Project Structure
 personal_finance_tracker/
-│── main.py              # Main Tkinter GUI App
-│── db.py                # Database operations
-│── auth.py              # Authentication system
-│── visualization.py     # Data visualization (charts)
-│── export.py            # Export functions (CSV/Excel)
-│── requirements.txt     # Dependencies
-│── data/                # SQLite DB + Exported reports
+│── main.py           # Main Tkinter GUI App
+│── db.py             # Database operations
+│── auth.py           # Authentication system
+│── visualization.py  # Data visualization (charts)
+│── export.py         # Export functions (CSV/Excel)
+│── requirements.txt  # Dependencies
+│── data/             # SQLite DB + Exported reports
 
 ⚙️ Installation & Setup
 
-1️⃣ Clone or Download this repository.
+1️⃣ Clone the repository
 
-git clone https://github.com/ritwikasaha/personal-finance-tracker.git
-cd personal-finance-tracker
+git clone https://github.com/Kush2255/Personal-Finance-Tracker.git
+cd Personal-Finance-Tracker
 
 
 2️⃣ Create Virtual Environment (recommended)
@@ -71,13 +70,6 @@ pip install -r requirements.txt
 
 python main.py
 
-📸 Screenshots
-
-🔐 Login Screen
-💵 Transaction Entry Form
-📊 Visualization Dashboard
-📑 Exported Excel/CSV Reports
-
 📦 Packaging as Executable
 
 To create a standalone app:
@@ -92,15 +84,12 @@ The executable will be available inside the dist/ folder.
 
 📑 Export to PDF with styled reports
 
-🎨 Improve Tkinter UI (Themes, Icons)
+🎨 Improve Tkinter UI (themes, icons, responsiveness)
 
 📊 Add more interactive charts with Plotly
 
-🔒 Encrypt user passwords for better security
+🔒 Encrypt user passwords for stronger security
 
 ✨ Author
 
-👩 Ritwika Saha
-=======
-# Personal-Finance-Tracker
->>>>>>> 17cf7dd7810f4a21c2f4ffc013675eeb771ffb3a
+👨 Kushwanth Rasala
