@@ -43,8 +43,7 @@ personal_finance_tracker/
 │── data/ # SQLite DB + Exported reports
 
 yaml
-Copy
-Edit
+
 
 ---
 
@@ -56,9 +55,7 @@ git clone https://github.com/Kush2255/Personal-Finance-Tracker.git
 cd Personal-Finance-Tracker
 2️⃣ Create Virtual Environment (recommended)
 
-bash
-Copy
-Edit
+
 python -m venv venv
 Activate it:
 
@@ -68,23 +65,18 @@ macOS/Linux → source venv/bin/activate
 
 3️⃣ Install Dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4️⃣ Run the Application
 
-bash
-Copy
-Edit
+
 python main.py
 📦 Packaging as Executable
 
 To create a standalone app:
 
-bash
-Copy
-Edit
+
+
 pip install pyinstaller
 pyinstaller --onefile main.py
 The executable will be available inside the dist/ folder.
