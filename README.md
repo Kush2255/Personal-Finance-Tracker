@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 📊 Personal Finance Tracker with Data Visualization
 
 👩‍💻 Author: Ritwika Saha
@@ -100,3 +101,6 @@ The executable will be available inside the dist/ folder.
 ✨ Author
 
 👩 Ritwika Saha
+=======
+# Personal-Finance-Tracker
+>>>>>>> 17cf7dd7810f4a21c2f4ffc013675eeb771ffb3a
